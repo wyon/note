@@ -15,3 +15,8 @@ Android四大基本组件，必须掌握，面试常问。
   
 * [ListView的基本使用与优化](android/basic/listview/listview.md)   
 ListView是所有控件中最常使用且对新手来说比较复杂的用法，各种Adapter的使用以及ListView的优化都是必须掌握的。  
+
+* [Android系统用于Activity的标准Intent](android/basic/intent_activity/intent_activity.md)   
+Intent解决了Android中四大组件的通讯，非常有用，这篇博客收集整理了系统的标准Intent
+
+* 
