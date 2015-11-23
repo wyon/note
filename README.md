@@ -19,4 +19,5 @@ ListView是所有控件中最常使用且对新手来说比较复杂的用法，
 * [Android系统用于Activity的标准Intent](android/basic/intent_activity/intent_activity.md)   
 Intent解决了Android中四大组件的通讯，非常有用，这篇博客收集整理了系统的标准Intent
 
-* 
+* [Android屏幕适配](android/basic/compatible_screens/compatible_screens.md)   
+介绍一些Android屏幕适配的基础
