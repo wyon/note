@@ -599,7 +599,7 @@ QuoteSpan(Parcel src)：包含颜色值信息的包装类。使用：
 效果：   
 ![android_span_quote](img/android_span_quote.jpg)
 
-##### 28、[TabStopSpan 制表位偏移样式](id:TabStopSpan)
+##### 28、[TabStopSpan](id:TabStopSpan)制表位偏移样式
 
 TabStopSpan.Standard，制表位偏移样式，距离每行的leading margin的偏移量，据测试在首行加入制表符时才产生效果。构造函数：
 
