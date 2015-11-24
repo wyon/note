@@ -48,7 +48,7 @@ Android系统通过SpannableString类来对指定文本进行相关处理，具�
 Span效果图：   
 ![android_textview_spannablestring](img/android_textview_spannablestring.jpg)
 
-##### 1、[BackgroundColorSpan 背景色](id:BackgroundColorSpan)
+##### 1、<a name="BackgroundColorSpan"></a>BackgroundColorSpan 背景色
 
 	SpannableString spanText = new SpannableString("萝卜白菜的博客 -- http://orgcent.com");
 	spanText.setSpan(new BackgroundColorSpan(Color.GREEN), 0, spanText.length(), Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
@@ -67,7 +67,7 @@ Span效果图：
 效果：   
 ![android_textview_span_backgroundcolor](img/android_textview_span_backgroundcolor.jpg)
 
-##### 2、[ClickableSpan 文本可点击，有点击事件](id:ClickableSpan)
+##### 2、<a name="ClickableSpan"></a>ClickableSpan 文本可点击，有点击事件
 
 Android系统默认把网址、电话、地图(geo地址)、邮箱等转换为超链接。和HTML中的一样，默认超链接都带下划线的，下面的方案可以在TextView中去掉超链接的下划线：
 
@@ -107,7 +107,7 @@ Android系统默认把网址、电话、地图(geo地址)、邮箱等转换为�
 	PS:在NoLineClickSpan类中实现onClick()回调方法；不用把TextView的属性autoLink设为”all”.
 	
 	
-##### 3、[ForegroundColorSpan 文本颜色（前景色）](id:ForegroundColorSpan)
+##### 3、<a name="ForegroundColorSpan"></a>ForegroundColorSpan 文本颜色（前景色）
 
 	spanText = new SpannableString("萝卜白菜的博客 -- http://orgcent.com");
 	spanText.setSpan(new ForegroundColorSpan(Color.BLUE), 6, spanText.length(), Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
@@ -126,7 +126,7 @@ ForegroundColorSpan(Parcel src)：参数src，包含字体颜色信息的包装�
 效果：   
 ![android_textview_span_foregroundcolor](img/android_textview_span_foregroundcolor.jpg)
 
-##### 4、[MaskFilterSpan 修饰效果，如模糊(BlurMaskFilter)、浮雕(EmbossMaskFilter)](id:MaskFilterSpan)
+##### 4、<a name="MaskFilterSpan"></a>MaskFilterSpan 修饰效果，如模糊(BlurMaskFilter)、浮雕(EmbossMaskFilter)
 
 	spanText = new SpannableString("MaskFilterSpan -- http://orgcent.com");
 	int length = spanText.length();
@@ -150,7 +150,7 @@ MaskFilterSpan(MaskFilter filter)：参数filter，滤镜样式。
 效果：   
 ![android_span_maskfilter](img/android_span_maskfilter.jpg)
 
-##### 6、[RasterizerSpan 光栅效果](id:RasterizerSpan)
+##### 6、<a name="RasterizerSpan"></a>RasterizerSpan 光栅效果
 
 	spanText = new SpannableString("StrikethroughSpan");
 	spanText.setSpan(new StrikethroughSpan(), 0, 7, Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
@@ -160,7 +160,7 @@ MaskFilterSpan(MaskFilter filter)：参数filter，滤镜样式。
 RasterizerSpan，字面义为光栅化，实际效果不明显，待完善。一个构造函数：
 RasterizerSpan(Rasterizer r)：Rasterizer只有一个系统定义了的子类LayerRasterizer
 
-##### 7、[StrikethroughSpan 删除线（中划线）](id:StrikethroughSpan)
+##### 7、<a name="StrikethroughSpan"></a>StrikethroughSpan 删除线（中划线）
 
 	spanText = new SpannableString("StrikethroughSpan");
 	spanText.setSpan(new StrikethroughSpan(), 0, 7, Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
@@ -175,13 +175,13 @@ public StrikethroughSpan(Parcel src) {
 因此这两个构造函数完全是同样的效果。   
 ![android_span_strikethrough](img/android_span_strikethrough.jpg)
 
-##### 8、[SuggestionSpan](id:SuggestionSpan)
+##### 8、<a name="SuggestionSpan"></a>SuggestionSpan
 
 相当于占位符，一般用在EditText输入框中。当双击此文本时，会弹出提示框选择一些建议（推荐的）文字，选中的文本将替换此占位符。在输入法上用的较多。
 
 PS：API 14新增
 
-##### 9、[UnderlineSpan 下划线](id:UnderlineSpan)
+##### 9、<a name="UnderlineSpan"></a>UnderlineSpan 下划线
 
 	spanText = new SpannableString("UnderlineSpan");
 	spanText.setSpan(new UnderlineSpan(), 0, spanText.length(), Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
@@ -198,7 +198,7 @@ UnderlineSpan(Parcel src)：一参构造， 与无参构造效果相同，构造
 效果：   
 ![android_span_underline](img/android_span_underline.jpg)
 
-##### 10、[AbsoluteSizeSpan 绝对大小（文本字体）](id:AbsoluteSizeSpan)
+##### 10、<a name="AbsoluteSizeSpan"></a>AbsoluteSizeSpan 绝对大小（文本字体）
 
 	spanText = new SpannableString("AbsoluteSizeSpan");
 	spanText.setSpan(new AbsoluteSizeSpan(20, true), 0, spanText.length(), Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
@@ -228,7 +228,7 @@ AbsoluteSizeSpan(Parcel src)：参数src，包含有size和dip值的包装类。
 效果：   
 ![android_span_absolutesize](img/android_span_absolutesize.jpg)
 
-##### 11、[DynamicDrawableSpan 设置图片，基于文本基线或底部对齐。](id:DynamicDrawableSpan)
+##### 11、<a name="DynamicDrawableSpan"></a>DynamicDrawableSpan 设置图片，基于文本基线或底部对齐。
 
 左边图片基于基线对齐，右边图片基于底部对齐
 
@@ -253,7 +253,7 @@ AbsoluteSizeSpan(Parcel src)：参数src，包含有size和dip值的包装类。
 	mTVText.append("\n");
 	mTVText.append(spanText);
 	
-##### 12、[ImageSpan 图片](id:ImageSpan)
+##### 12、<a name="ImageSpan"></a>ImageSpan 图片
 
 和DynamicDrawableSpan差别不大
 
@@ -293,7 +293,7 @@ ImageSpan(Context context, int resourceId, int verticalAlignment)参数context�
 效果：   
 ![android_span_image](img/android_span_image.jpg)
 
-##### 13、[RelativeSizeSpan 相对大小（文本字体）](id:RelativeSizeSpan)
+##### 13、<a name="RelativeSizeSpan"></a>RelativeSizeSpan 相对大小（文本字体）
 
 相对大小的比例是基于当前文本字体大小
 
@@ -317,7 +317,7 @@ RelativeSizeSpan(Parcel src)：参数src，包含了比例值信息的包装类�
 效果：   
 ![android_span_relativesize](img/android_span_relativesize.jpg)
 
-##### 15、[ScaleXSpan 基于x轴缩放](id:ScaleXSpan)
+##### 15、<a name="ScaleXSpan"></a>ScaleXSpan 基于x轴缩放
 
 	spanText = new SpannableString("ScaleXSpan -- 萝卜白菜的博客");
 	//参数proportion:比例大小
@@ -339,7 +339,7 @@ ScaleXSpan(Parcel src)：参数src，包含了缩放比例信息的包装类。�
 效果：   
 ![android_span_scalex](img/android_span_scalex.jpg)
 
-##### 16、[StyleSpan 字体样式：粗体、斜体等](id:StyleSpan)
+##### 16、<a name="StyleSpan"></a>StyleSpan 字体样式：粗体、斜体等
 
 	spanText = new SpannableString("StyleSpan -- 萝卜白菜的博客");
 	//Typeface.BOLD_ITALIC:粗体+斜体
@@ -361,7 +361,7 @@ StyleSpan(Parcel src)：参数src，包含字体信息的包装类，用法：
 效果：   
 ![android_span_style](img/android_span_style.jpg)
 
-##### 17、[SubscriptSpan 下标（数学公式会用到）](id:SubscriptSpan)
+##### 17、<a name="SubscriptSpan"></a>SubscriptSpan 下标（数学公式会用到）
 
 	spanText = new SpannableString("SubscriptSpan -- 萝卜白菜的博客");
 	spanText.setSpan(new SubscriptSpan(), 6, 7, Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
@@ -380,7 +380,7 @@ SubscriptSpan(Parcel src)：一参构造，参数src并未起任何作用，源�
 效果：   
 ![android_span_subscript](img/android_span_subscript.jpg)
 
-##### 18、[SuperscriptSpan 上标（数学公式会用到）](id:SuperscriptSpan)
+##### 18、<a name="SuperscriptSpan"></a>SuperscriptSpan 上标（数学公式会用到）
 
 	spanText = new SpannableString("SuperscriptSpan -- 萝卜白菜的博客");
 	spanText.setSpan(new SuperscriptSpan(), 6, 7, Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
@@ -399,7 +399,7 @@ SuperscriptSpan(Parcel src)：一参构造，参数src并未起任何作用，�
 效果：   
 ![android_span_superscript](img/android_span_superscript.jpg)
 
-##### 19、[TextAppearanceSpan 文本外貌（包括字体、大小、样式和颜色）](id:TextAppearanceSpan)
+##### 19、<a name="TextAppearanceSpan"></a>TextAppearanceSpan 文本外貌（包括字体、大小、样式和颜色）
 
 系统还提供了相关值TextAppearance_Small, TextAppearance_Large等。如有需要可在以上样式基础上修改。
 
@@ -440,7 +440,7 @@ TextAppearanceSpan(Parcel src)：参数src，含有样式信息的包装类，�
 效果：   
 ![android_span_textappearance](img/android_span_textappearance.jpg)
 
-##### 20、[TypefaceSpan 文本字体](id:TypefaceSpan)
+##### 20、<a name="TypefaceSpan"></a>TypefaceSpan 文本字体
 
 	spanText = new SpannableString("TypefaceSpan -- 萝卜白菜的博客");
 	//若需使用自定义字体，可能要重写类TypefaceSpan
@@ -462,7 +462,7 @@ TypefaceSpan(Parcel src)： 参数src，包含字体family信息的包装类，�
 效果：    
 ![android_span_typeface](img/android_span_typeface.jpg)
 
-##### 21、[URLSpan 文本超链接](id:URLSpan)
+##### 21、<a name="URLSpan"></a>URLSpan 文本超链接
 
 	spanText = new SpannableString("URLSpan -- 萝卜白菜的博客");
 	spanText.setSpan(new URLSpan("http://orgcent.com"), 10, spanText.length(), Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
@@ -485,7 +485,7 @@ URLSpan(Parcel src)：参数src，包含链接地址信息的包装类，使用�
 效果：   
 ![android_span_url](img/android_span_url.jpg)
 
-##### 22、[AlignmentSpan.Standard 标准文本对齐样式](id:AlignmentSpan)
+##### 22、<a name="AlignmentSpan"></a>AlignmentSpan.Standard 标准文本对齐样式
 
 AlignmentSpan.Standard， 标准文本对齐样式，该类有两个构造函数，
 
@@ -503,7 +503,7 @@ AlignmentSpan.Standard(Parcel src)：参数src，包含有标准字符串的Parc
 效果：   
 ![android_span_alignment](img/android_span_alignment.jpg)
 
-##### 23、[BulletSpan 着重样式](id:BulletSpan)
+##### 23、<a name="BulletSpan"></a>BulletSpan 着重样式
 
 BulletSpan， 着重样式，类似于HTML中的\<li>标签的圆点效果。
 
@@ -533,7 +533,7 @@ BulletSpan(Parcel src)：参数src，包含宽度、颜色信息的包装类，�
 效果：   
 ![android_span_bullet](img/android_span_bullet.jpg)
 
-##### 24、[DrawableMarginSpan 图片+Margin样式](id:DrawableMarginSpan)
+##### 24、<a name="DrawableMarginSpan"></a>DrawableMarginSpan 图片+Margin样式
 
 DrawableMarginSpan，图片+Margin样式，该类有两个构造函数：DrawableMarginSpan(Drawable b)、DrawableMarginSpan(Drawable b,int pad)。
 
@@ -544,7 +544,7 @@ DrawableMarginSpan(Drawable b,int pad)：参数b，用于显示的图片，参�
 效果：   
 ![android_span_drawablemargin](img/android_span_drawablemargin.jpg)
 
-##### 25、[IconMarginSpan 图标+Margin样式](id:IconMarginSpan)
+##### 25、<a name="IconMarginSpan"></a>IconMarginSpan 图标+Margin样式
 
 IconMarginSpan，图标+Margin样式，该类与DrawableMarginSpan使用上很相似。本类有两个构造函数：
 
@@ -555,7 +555,7 @@ IconMarginSpan(Bitmap b,int pad)：参数b，用于显示图像的bitmap，参�
 效果：   
 ![android_span_iconmargin](img/android_span_iconmargin.jpg)
 
-##### 26、[LeadingMarginSpan 文本缩进的样式](id:LeadingMarginSpan)
+##### 26、<a name="LeadingMarginSpan"></a>LeadingMarginSpan 文本缩进的样式
 
 LeadingMarginSpan.Standard，文本缩进的样式。有3个构造函数，分别为：
 
@@ -581,7 +581,7 @@ Standard(Parcel p)： 参数p，包含缩进信息的包装类。在构造时，
 效果：   
 ![android_span_leadingmargin](img/android_span_leadingmargin.jpg)
 
-##### 27、[QuoteSpan 引用样式](id:QuoteSpan)
+##### 27、<a name="QuoteSpan"></a>QuoteSpan 引用样式
 
 QuoteSpan，引用样式，在文本左侧添加一条表示引用的竖线，该类有3个构造函数：
 
@@ -599,8 +599,7 @@ QuoteSpan(Parcel src)：包含颜色值信息的包装类。使用：
 效果：   
 ![android_span_quote](img/android_span_quote.jpg)
 
-##### 28、TabStopSpan 制表位偏移样式
-[](id:TabStopSpan)
+##### 28、<a name="TabStopSpan"></a>TabStopSpan 制表位偏移样式
 
 TabStopSpan.Standard，制表位偏移样式，距离每行的leading margin的偏移量，据测试在首行加入制表符时才产生效果。构造函数：
 

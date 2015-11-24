@@ -6,7 +6,7 @@ Android四大基本组件分别是[`Activity`](#activity)，[`Service服务`](#s
 
 ### **一：了解四大基本组件**
 
-#### [Activity](id:activity):
+#### <a name="activity"></a>Activity:
 
 应用程序中，一个Activity通常就是一个单独的屏幕，它上面可以显示一些控件也可以监听处、理用户的事件并做出响应。
 
@@ -32,7 +32,7 @@ AndroidManifest文件中含有如下过滤器的Activity组件为默认启动类
 		<category android:name="android.intent.category.LAUNCHER" />
 	</intent-filter>
 	
-#### [BroadcastReceiver广播接收器](id:broadcastreceiver)：
+#### <a name="broadcastreceiver"></a>BroadcastReceiver广播接收器
 
 你的应用可以使用它对外部事件进行过滤只对感兴趣的外部事件（如当电话呼入时，或者数据网络可用时）进行接收并做出响应。广播接收器没有界面，但是它可以启动一个Activity或者Service来处理它接收的消息，或用NotificationManager来通知用户。通知可以用多种方式来吸引用户的注意力－闪动背光、震动、播放声音等。一般来说，是在通知栏上放一个持久的图标，用户可以打开它并获取消息。
 
@@ -79,7 +79,7 @@ AndroidManifest文件中含有如下过滤器的Activity组件为默认启动类
  2. 动态注册广播接收器还有一个特点，~~就是当用来注册的Activity关掉后，广播也就失效了~~（此处描述有误，注册广播接收器的Activity关闭之前需要取消注册，否则会抛出异常）。静态注册无需担忧广播接收器是否被关闭，只要设备是开启的，广播接收器也是打开的。也就是说哪怕app本身未启动，该app订阅的广播在触发时也会对它起作用。
 
 
-#### [Service服务](id:service)
+#### <a name="service"></a>Service服务
 
 一个Service是一段长生命周期的，没有用户界面的程序，可以用来开发如监控类程序。
 
@@ -101,7 +101,7 @@ Service创建步骤如下：
 
 **（注意：bindService方法启动的服务，调用者没有调用unBindService()而直接关闭，应用会抛出异常；多个调用方多次调用bindService()，<font color="red">Service的onBind()方法只会运行一次</font>，而不同于onStart()、onStartCommand()。）**
 
-#### [Content Provider 内容提供者](id:contentprovider)
+#### <a name="contentprovider"></a>Content Provider 内容提供者
 
 android平台提供了Content Provider使一个应用程序可以指定数据集提供给其他应用程序。这些数据可以存储在文件系统中、在一个SQLite数据库、或以任何其他合理的方式。
 
