@@ -1,6 +1,10 @@
 # note
 this is note
 
+[Android TextView 使用SpannableString](android/notes/android_textview_span.md)
+
+------------
+
 [Android学习之路](http://www.stormzhang.com/android/2014/07/07/learn-android-from-rookie/)
 
 ### Android基础
@@ -24,3 +28,6 @@ Intent解决了Android中四大组件的通讯，非常有用，这篇博客收�
 
 * [Android中SQLite应用详解](android/basic/android_sqlite/android_sqlite.md)   
 Android中的SQLite需要掌握，这篇博客很适合新手
+
+* [Android Fragment完全解析](android/basic/android_fragment/android_fragment.md)   
+3.0之后新加的Fragment，必须要掌握，目前使用的场景也是越来越普遍了
