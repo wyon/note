@@ -21,3 +21,6 @@ Intent解决了Android中四大组件的通讯，非常有用，这篇博客收�
 
 * [Android屏幕适配](android/basic/compatible_screens/compatible_screens.md)   
 介绍一些Android屏幕适配的基础
+
+* [Android中SQLite应用详解](android/basic/android_sqlite/android_sqlite.md)   
+Android中的SQLite需要掌握，这篇博客很适合新手
