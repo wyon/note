@@ -31,3 +31,8 @@ Android中的SQLite需要掌握，这篇博客很适合新手
 
 * [Android Fragment完全解析](android/basic/android_fragment/android_fragment.md)   
 3.0之后新加的Fragment，必须要掌握，目前使用的场景也是越来越普遍了
+
+### Android中级
+
+* [Android应用程序的生命周期](android/midlevel/android_application_lifecycle/android_application_lifecycle.md)   
+Android的应用程序的生命周期需要理解，面试也是经常会被问的
