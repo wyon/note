@@ -1,7 +1,14 @@
 # note
-this is note
+
+[郭霖的专栏](http://blog.csdn.net/sinyu890807/article/list/0)
+
+-------
+
+##this is note
 
 [Android TextView 使用SpannableString](android/notes/android_textview_span.md)
+
+
 
 ------------
 
@@ -36,3 +43,6 @@ Android中的SQLite需要掌握，这篇博客很适合新手
 
 * [Android应用程序的生命周期](android/midlevel/android_application_lifecycle/android_application_lifecycle.md)   
 Android的应用程序的生命周期需要理解，面试也是经常会被问的
+
+* [带你一步步深入了解View](android/midlevel/view_inflate/view_inflate.md)   
+View做为UI开发中最常用到的，必须要深入理解
