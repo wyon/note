@@ -44,7 +44,7 @@ Android中的SQLite需要掌握，这篇博客很适合新手
 * [Android应用程序的生命周期](android/midlevel/android_application_lifecycle/android_application_lifecycle.md)   
 Android的应用程序的生命周期需要理解，面试也是经常会被问的
 
-* [带你一步步深入了解View](android/midlevel/view_inflate/view_inflate.md)   
+* [__Android View框架概述，带你一步步深入了解View__](android/midlevel/view_inflate/view_inflate.md)   
 View做为UI开发中最常用到的，必须要深入理解
 
 * [ Android Service完全解析（上）](http://blog.csdn.net/guolin_blog/article/details/11952435)   
