@@ -54,3 +54,22 @@ Service作为Android四大组件之一，在每一个应用程序中都扮演着
 * [Android Gson](http://www.stormzhang.com/android/2014/05/22/android-gson/)   
   [FastJson](https://github.com/alibaba/fastjson)   
 目前比较常用比较流行的数据格式就是json了
+
+* [Android 布局优化](http://stormzhang.com/android/2014/04/10/android-optimize-layout/)   
+Android开发中经常会用到xml布局，那么布局优化方面的知识更是需要掌握的了
+
+* [Android中Intent传递对象的两种方法(Serializable,Parcelable)](http://blog.csdn.net/android_tutor/article/details/5740845)   
+详细讲解了Android中Intent中如何传递对象
+
+* [Android异步消息处理机制完全解析](http://blog.csdn.net/guolin_blog/article/details/9991569)   
+Android开发中异步操作是经常使用的，必须理解掌握
+
+* [Android AsyncTask完全解析](http://blog.csdn.net/guolin_blog/article/details/11711405)   
+Android异步操作的另一种方法
+
+* [Android Custom Loading](http://stormzhang.com/openandroid/2013/11/15/android-custom-loading/)   
+很早的一个小demo，教你如何做一个App的Loading动画
+
+### Android进阶
+
+* [
