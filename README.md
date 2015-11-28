@@ -46,3 +46,7 @@ Android的应用程序的生命周期需要理解，面试也是经常会被问�
 
 * [带你一步步深入了解View](android/midlevel/view_inflate/view_inflate.md)   
 View做为UI开发中最常用到的，必须要深入理解
+
+* [ Android Service完全解析（上）](http://blog.csdn.net/guolin_blog/article/details/11952435)   
+  [ Android Service完全解析（下）](http://blog.csdn.net/guolin_blog/article/details/9797169)   
+Service作为Android四大组件之一，在每一个应用程序中都扮演着非常重要的角色
