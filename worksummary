@@ -1,0 +1,21 @@
+2016/05/26 thursday
+am:
+解决友盟统计上2.12版本出现的crash bug
+pm:
+任务详情改版需求中“报价详情”、“在跑任务详情”部分
+
+
+2016/05/27 friday
+am:
+理解httpdns产品文档（https://help.aliyun.com/knowledge_detail/11373880.html?spm=5176.789194337.2.4.D3fK2C)
+了结httpdns使用场景，解决移动端什么问题以及实现原理
+pm:
+阅读httpdns sdk文档，和android demo
+需要讨论的关键点：
+1.httpdns解析失败降级处理（demo中有相关处理可参考）
+2.httpdns解析功能开启是否需要服务端可配置
+3.不影响内部测试地址切换
+4.sdk接入耦合最小、可方便关闭
+5.S端本地网络模块和lib库都需要处理。（lib库网络模块是否可方便接入）
+6.所有域名都用httpdns解析？如：API host，上传地址，其他
+7.接入httpdns后的反馈统计
