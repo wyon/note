@@ -11,11 +11,21 @@ am:
 了结httpdns使用场景，解决移动端什么问题以及实现原理
 pm:
 阅读httpdns sdk文档，和android demo
-需要讨论的关键点：
+S端接入httpdns
+需要注意的关键点：
 1.httpdns解析失败降级处理（demo中有相关处理可参考）
-2.httpdns解析功能开启是否需要服务端可配置
+2.httpdns解析功能开启是否需要服务端可配置 (客户端默认false，config接口获取服务端配置是否开启，可以确保httpdns有问题的情况下，服务端修改配置仍能关闭该功能)
 3.不影响内部测试地址切换
 4.sdk接入耦合最小、可方便关闭
 5.S端本地网络模块和lib库都需要处理。（lib库网络模块是否可方便接入）
 6.所有域名都用httpdns解析？如：API host，上传地址，其他
-7.接入httpdns后的反馈统计
+7.接入httpdns后的反馈统计：解析失败的情况概率，请求效率提升
+8.如何测试
+
+
+2016/05/28 saturday
+am:
+看书 设计模式
+pm:
+摘录设计模式纲要部分并纪录到markdown
+查找线上司机端崩溃原因：红米note3 android5.0 根据crash log判断是系统问题
