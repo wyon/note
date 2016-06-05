@@ -1,8 +1,49 @@
-2016/05/26 thursday
+2016/06/05 sunday
+am:凌晨5点起送桃子去西站，返途到公司未带门禁卡，回去拿门禁卡，大概10点过3分到公司
+pm:中午未吃饭睡到下午3点；下午看完设计模式一书并完成相关笔记；6点离开公司，吃饭回家。
+
+
+2016/06/04 saturday
+am:完成订单签收强化认识的需求（为测试验证）
+pm:北京西站接桃子
+
+
+2016/06/03 friday
+am:理解上传crashlog相关逻辑；学习android supportv4 demo代码；
+pm:学习Support FileProvider（在不同版本间有坑，使用需谨慎注意）；
+
+
+2016/06/02 thursday
+am:解决findbugs报出的bug；司机信息整理需求介绍会。
+pm:云鸟研发中心成立会。
+
+
+2016/06/01 wednesday
+am:配置findBugs include.xml exclude.xml （未完成）；开始开发实习运力需求任务。
+pm:完成实习运力需求；httpdns是否启用config接口调试通过；测试S端httpdns
+
+
+2016/05/31 tuesday
+am:过需求（城市修改），解决bug（BEEPER-24122）、improve（BEEPER-24107），整理当前任务进度，讨论C端（无开发计划）关于任务改版、温控需求、实习需求的实现
+pm:实现C端温控需求。S端报价详情、报价列表显示代收款图标
+
+
+2016/05/30 monday
+am:尝试findbugs，试着处理findbugs报出来的建议修改
+pm:httpdns服务开启并配置，客户端调试修改逻辑，测试功能基本完成，blocked by （api新增任务）config接口配置是否开启该功能。修改“提成”栏目逻辑被客户端固定，使客户端可以处理“实习”栏目的显示。
+
+
+2016/05/29 sunday
+am:寄包裹到宁波
+pm:休息睡觉
+
+
+2016/05/28 saturday
 am:
-解决友盟统计上2.12版本出现的crash bug
+看书 设计模式
 pm:
-任务详情改版需求中“报价详情”、“在跑任务详情”部分
+摘录设计模式纲要部分并纪录到markdown
+查找线上司机端崩溃原因：红米note3 android5.0 根据crash log判断是系统问题
 
 
 2016/05/27 friday
@@ -23,9 +64,8 @@ S端接入httpdns
 8.如何测试
 
 
-2016/05/28 saturday
+2016/05/26 thursday
 am:
-看书 设计模式
+解决友盟统计上2.12版本出现的crash bug
 pm:
-摘录设计模式纲要部分并纪录到markdown
-查找线上司机端崩溃原因：红米note3 android5.0 根据crash log判断是系统问题
+任务详情改版需求中“报价详情”、“在跑任务详情”部分
