@@ -7,6 +7,8 @@ android开发艺术探索  JNI
 
 <strong>算法相关［算法导论］</strong>
 
+<strong>编程、英语、写作</strong>
+
 JS
 CustomView
 
