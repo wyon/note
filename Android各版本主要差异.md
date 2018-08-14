@@ -29,11 +29,9 @@ MaterialDesign 将art改为默认运行模式
 6.0 Marshmallow   
 新的运行时权限管理 Doze电量管理 [Doze适配](https://www.jianshu.com/p/f044ce3f5913)
 	
-7.0 Nougat   
+7.0 Nougat
 多视窗模式 强化Doze的省电功能
-
-删除了三项隐式广播（CONNECTIVITY_ACTION、ACTION_NEW_PICTURE 和ACTION_NEW_VIDEO），以帮助优化内存使用和电量消耗。   
-
+删除了三项隐式广播（CONNECTIVITY_ACTION、ACTION_NEW_PICTURE 和ACTION_NEW_VIDEO），以帮助优化内存使用和电量消耗。
 “私有文件夹被限制訪问”，“StrictMode API 政策” ；严格的文件访问权限；应用间共享文件、访问私有文件需要通过FileProvider
 
 8.0 Oreo
