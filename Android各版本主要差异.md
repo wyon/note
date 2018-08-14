@@ -28,6 +28,7 @@ MaterialDesign 将art改为默认运行模式
 	
 6.0 Marshmallow   
 新的运行时权限管理 Doze电量管理
+[Doze适配](https://www.jianshu.com/p/f044ce3f5913)
 	
 7.0 Nougat   
 多视窗模式 强化Doze的省电功能
